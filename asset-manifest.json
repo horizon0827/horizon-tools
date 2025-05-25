@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/horizon-tools/static/css/main.0512c44b.css",
-    "main.js": "/horizon-tools/static/js/main.1a8b9dc4.js",
+    "main.js": "/horizon-tools/static/js/main.e4f6cbac.js",
     "static/js/453.b7e92d15.chunk.js": "/horizon-tools/static/js/453.b7e92d15.chunk.js",
     "index.html": "/horizon-tools/index.html",
     "main.0512c44b.css.map": "/horizon-tools/static/css/main.0512c44b.css.map",
-    "main.1a8b9dc4.js.map": "/horizon-tools/static/js/main.1a8b9dc4.js.map",
+    "main.e4f6cbac.js.map": "/horizon-tools/static/js/main.e4f6cbac.js.map",
     "453.b7e92d15.chunk.js.map": "/horizon-tools/static/js/453.b7e92d15.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0512c44b.css",
-    "static/js/main.1a8b9dc4.js"
+    "static/js/main.e4f6cbac.js"
   ]
 }
