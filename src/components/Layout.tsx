@@ -18,6 +18,7 @@ import {
   Code as CodeIcon,
   Link as LinkIcon,
   Menu as MenuIcon,
+  CalendarToday as CalendarIcon,
 } from '@mui/icons-material';
 
 const drawerWidth = 240;
@@ -38,8 +39,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   };
 
   const menuItems = [
-    { text: 'Base64', icon: <CodeIcon />, path: '/base64' },
-    { text: 'URL', icon: <LinkIcon />, path: '/url' },
+    { text: 'Base64 Encode', icon: <CodeIcon />, path: '/base64' },
+    { text: 'URL Encode', icon: <LinkIcon />, path: '/url' },
+    { text: 'Date Calculator', icon: <CalendarIcon />, path: '/date' },
   ];
 
   const drawer = (
