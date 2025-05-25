@@ -18,7 +18,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter>
+      <BrowserRouter basename="/horizon-tools">
         <Layout>
           <Routes>
             <Route path="/" element={<Navigate to="/base64" replace />} />
