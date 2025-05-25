@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { ThemeProvider, createTheme, CssBaseline } from '@mui/material';
 import Layout from './components/Layout';
 import Base64Tool from './components/tools/Base64Tool';
@@ -18,7 +18,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <BrowserRouter basename="/horizon-tools">
+      <HashRouter>
         <Layout>
           <Routes>
             <Route path="/" element={<Navigate to="/base64" replace />} />
@@ -26,7 +26,7 @@ function App() {
             <Route path="/url" element={<UrlTool />} />
           </Routes>
         </Layout>
-      </BrowserRouter>
+      </HashRouter>
     </ThemeProvider>
   );
 }
